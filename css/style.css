@@ -148,6 +148,11 @@ p{
 	min-width:300px;
 }
 
+#mayank-services{
+	list-style: circle !important;
+}
+
+
 ul,li{
 	list-style:none;
 	padding:0px;

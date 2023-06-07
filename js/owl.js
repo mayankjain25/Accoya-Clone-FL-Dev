@@ -72,7 +72,7 @@
 		 * Animation speed in milliseconds.
 		 * @protected
 		 */
-		this._speed = null;
+		this._speed = 100000;
 
 		/**
 		 * Coordinates of all items in pixel.
@@ -204,7 +204,7 @@
 		startPosition: 0,
 		rtl: false,
 
-		smartSpeed: 5,
+		smartSpeed: 1,
 		fluidSpeed: false,
 		dragEndSpeed: false,
 
@@ -2509,7 +2509,7 @@
 		 * The autoplay timeout.
 		 * @type {Timeout}
 		 */
-		this._timeout = null;
+		this._timeout = 5000;
 
 		/**
 		 * Indicates whenever the autoplay is paused.
@@ -2586,10 +2586,10 @@
 	 * @public
 	 */
 	Autoplay.Defaults = {
-		autoplay: false,
-		autoplayTimeout: 5000,
+		autoplay: true,
+		autoplayTimeout: 15000,
 		autoplayHoverPause: false,
-		autoplaySpeed: false
+		autoplaySpeed: 7000
 	};
 
 	/**

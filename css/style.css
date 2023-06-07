@@ -1559,7 +1559,7 @@ img{
 	-moz-transition: all 100ms ease;
 	-ms-transition: all 1000ms ease;
 	-o-transition: all 1000ms ease;
-	transition: all 3000ms ease;
+	transition: all 1000ms ease;
 	-webkit-transform: translateY(50px);
 	-moz-transform: translateY(50px);
 	-ms-transform: translateY(50px);
@@ -1599,7 +1599,7 @@ img{
 	-ms-transform: translateY(0);
 	-o-transform: translateY(0);
 	transform: translateY(0);
-	transition-delay: 3000ms;
+	transition-delay: 2000ms;
 }
 
 .main-slider h3{
@@ -1614,7 +1614,7 @@ img{
 	-moz-transition: all 100ms ease;
 	-ms-transition: all 1000ms ease;
 	-o-transition: all 1000ms ease;
-	transition: all 3000ms ease;
+	transition: all 2000ms ease;
 	-webkit-transform: translateY(50px);
 	-moz-transform: translateY(50px);
 	-ms-transform: translateY(50px);
